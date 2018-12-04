@@ -20,7 +20,8 @@ Fetch your favorite blog or podcast!
         if(result.error){
           console.log(result.error)
         }
-        else{
+        else
+        {
           var entries = result.feed.entries
           for(var i = 0; i < entries.length; i++){
             var entry = entries[i]
